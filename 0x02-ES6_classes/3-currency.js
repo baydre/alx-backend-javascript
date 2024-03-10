@@ -22,7 +22,7 @@ export default class Currency {
     this._code = newCode;
   }
   get name() {
-    return this._code;
+    return this._name;
   }
   set name(newName) {
     if (typeof newName !== 'string') {
